@@ -1,6 +1,6 @@
 baseURL = 'https://lee2023gmo.github.io/'
 locale = 'zh-cn'
-title = '我的博客'
+title = 'lc的秘密基地'
 theme = 'PaperMod'
 
 [pagination]
@@ -8,7 +8,7 @@ theme = 'PaperMod'
 
 [params]
   env = 'production'
-  description = '记录学习与思考'
+  description = '记录思考'
   defaultTheme = 'auto'   # 跟随系统的明暗模式
   ShowReadingTime = true
   ShowShareButtons = false
