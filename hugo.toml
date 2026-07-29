@@ -1,0 +1,24 @@
+baseURL = 'https://lee2023gmo.github.io/'
+locale = 'zh-cn'
+title = '我的博客'
+theme = 'PaperMod'
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = 'production'
+  description = '记录学习与思考'
+  defaultTheme = 'auto'   # 跟随系统的明暗模式
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.homeInfoParams]
+    Title = '你好，欢迎来到我的博客'
+    Content = '这里记录我的学习笔记与想法。'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
