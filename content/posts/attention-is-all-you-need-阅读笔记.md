@@ -4,6 +4,7 @@ draft = false
 title = 'Attention Is All You Need 阅读笔记'
 +++
 《Attention Is All You Need》作为提出了Transformer的经典之作，最近刚读完，写点东西来回顾一下这篇文章。
+
 文章的第一，二部分都是一个简单的介绍，没什么好说的。
 第三部分算是文章的主体部分，讲解transformer的具体架构.
 首先是架构的俩个主体部分，一个是encoder，一个是decoder。Encoder用来汇总输入的向量组的信息，由N个block组成，每个block的架构完全一样，都是一个self attention层后进行residual，再对每个输出的向量分别进行layer-normalization，后面再接一个feed forward（其实就是一个俩层的MLP，中间用relu做激活函数）然后再来个residual和layer-normalization,就完事了。Decoder比encoder稍微复杂一点，把encoder中的self attention加一个mask，同时中间再加个cross attention层。在decoder最后一个块输出后，我们再接上一个线性层和softmax层得到最终得到一个表示概率的向量。(注：residual是指将输入的值加到输出上得到一个新的输出，layer-normalization则是一种对向量的操作，求出一个向量所有分量的平均数，在求出其标准差，每个分量减去平均数再除以标准差得到新的值。)
