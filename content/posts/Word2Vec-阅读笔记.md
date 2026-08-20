@@ -1,6 +1,6 @@
 +++
 date = '2026-08-19T19:32:59+08:00'
-draft = faulse
+draft = false
 title = 'Word2Vec 阅读笔记'
 tags = ['深度学习', '论文笔记'] 
 categories = ['论文阅读']          
