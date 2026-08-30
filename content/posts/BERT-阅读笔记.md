@@ -7,7 +7,7 @@ categories = ['论文阅读']
 summary = 'BERT是一种基于transformer encoder的预训练模型，论文中提出的一些预训练方法使得预训练的模型能够在哪怕样本量很少的任务上取得非常不错的成果' 
 +++
 ~~依旧镇楼~~
-![图片无法显示！](/artworks/jingliu2.jpg)
+![图片无法显示！](/artworks/jingliu2.png)
 
 ## 论文基本信息
 
