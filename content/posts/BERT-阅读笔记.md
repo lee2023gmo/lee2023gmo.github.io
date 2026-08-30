@@ -1,6 +1,6 @@
 +++
 date = '2026-08-23T18:42:13+08:00'
-draft = true
+draft = false
 title = 'BERT 阅读笔记'
 tags = ['自然语言处理', '预训练模型', '表示学习', 'Transformer'] 
 categories = ['论文阅读']          
