@@ -2,7 +2,7 @@
 date = '2026-08-03T15:38:37+08:00'
 draft = false
 title = 'Attention Is All You Need 阅读笔记'
-tags = ['深度学习', '论文笔记'] 
+tags = ['自然语言处理', 'Transformer', '注意力机制', '位置编码'] 
 categories = ['论文阅读']          
 summary = '《Attention Is All You Need》作为提出了Transformer的经典之作，最近刚读完，写点东西来回顾一下这篇文章。'  
 +++

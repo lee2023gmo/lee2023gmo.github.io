@@ -2,7 +2,7 @@
 date = '2026-08-19T19:32:59+08:00'
 draft = false
 title = 'Word2Vec 阅读笔记'
-tags = ['深度学习', '论文笔记'] 
+tags = ['自然语言处理', '词向量', '表示学习'] 
 categories = ['论文阅读']          
 summary = 'word embedding是NLP（自然语言处理）的基石，很多语言模型都要将词（或者token）用连续的词向量而不是one-hot编码表示，本篇笔记旨在讲解提出了CBOW和Skip-gram这俩种词向量训练方法的论文' 
 +++

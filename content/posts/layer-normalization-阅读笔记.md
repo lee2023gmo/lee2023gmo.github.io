@@ -2,7 +2,7 @@
 date = '2026-08-03T15:53:55+08:00'
 draft = false
 title = 'Layer Normalization 阅读笔记'
-tags = ['深度学习', '论文笔记']    
+tags = ['深度学习', '归一化']    
 categories = ['论文阅读']          
 summary = 'Layer normalization（后面统一称为LN）是transformer中多次用到的技术，前不久阅读完原始论文，现在来写一份该论文的阅读笔记'  
 +++
