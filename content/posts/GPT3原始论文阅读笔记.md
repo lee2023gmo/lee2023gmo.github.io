@@ -1,6 +1,6 @@
 +++
 date = '2026-09-01T21:57:20+08:00'
-draft = true
+draft = false
 title = 'GPT3原始论文阅读笔记'
 summary = ''
 tags = ['自然语言处理','大语言模型','Transformer']
